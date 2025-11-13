@@ -175,6 +175,25 @@ p {
     line-height: 0; /* Removes any extra space below the image */
 }
 
+/* When the screen is 768px or less */
+@media (max-width: 768px) {
+    .logo-full { display: none; } /* Hide the full logo */
+    .logo-icon { display: block; } /* Show the icon logo */
+}
+
+.nav-bar {
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: #432a17;
+    font-size: 150%;
+}
+
+
+
 a {
     color: #432a17;
     font-family: "Playfair", serif;
